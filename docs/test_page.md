@@ -1,8 +1,10 @@
 ---
 title: This is my title
-layout: page
+layout: default
 ---
 
+# Default theme H1
 
+## Default theme H2
 
-# Here is my page.
+Here is my page
