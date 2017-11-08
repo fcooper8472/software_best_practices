@@ -1,9 +1,9 @@
 ---
-title: Version control
+title: GitHub
 layout: page
 ---
 
-# Version control
+# GitHub
 
 ## Page theme H2
 

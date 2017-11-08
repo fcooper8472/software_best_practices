@@ -1,9 +1,9 @@
 ---
-title: Version control
+title: Continuous integration
 layout: page
 ---
 
-# Version control
+# Continuous integration
 
 ## Page theme H2
 
