@@ -10,4 +10,4 @@ layout: page
 Here is my page
 
 ___
-[<< back](https://fcooper8472.github.io/software_best_practices/)
+[<< back](https://fcooper8472.github.io/software_best_practices/#outline)
