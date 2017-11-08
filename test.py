@@ -11,6 +11,18 @@ class TestMathsCustomFunctions(unittest.TestCase):
         self.assertEqual(mcf.factorial(2), 2)
         self.assertEqual(mcf.factorial(15), 1307674368000)
 
+    def test_is_perfect_number(self):
+        self.assertTrue(mcf.is_perfect_number(6))
+        self.assertTrue(mcf.is_perfect_number(28))
+        self.assertTrue(mcf.is_perfect_number(496))
+        self.assertTrue(mcf.is_perfect_number(8128))
+
+        self.assertFalse(mcf.is_perfect_number(0))
+        self.assertFalse(mcf.is_perfect_number(1))
+        self.assertFalse(mcf.is_perfect_number(2))
+        self.assertFalse(mcf.is_perfect_number(12345))
+
+        self.assertRaisesRegexp(ValueError, "The number .+ is negative!", mcf.is_perfect_number, -1)
 
 if __name__ == '__main__':
     unittest.main()
