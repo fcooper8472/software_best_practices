@@ -24,3 +24,6 @@ layout: default
 
 * [Homework](https://fcooper8472.github.io/software_best_practices/homework)
   * see how easy it is to get up-and-running
+
+
+Hi
