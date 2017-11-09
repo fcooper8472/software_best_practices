@@ -19,6 +19,16 @@ but, in reality, git has pretty much won the argument.
 
 ## What is Git
 
-* info here
+Git is a distributed VCS.
+
+* Create a repo on a server (remote)
+* `clone` the repo to your local machine
+* Make changes, then `stage`, `commit`, and `push` them
+* You can have multiple `branches`
+* Multiple people can work at once
+* Good for all plain text documents, including LaTeX, html, python, C++, etc
+
+![git diagram](https://en.wikipedia.org/wiki/Git#/media/File:Git_operations.svg)
+
 ___
 [<< back](https://fcooper8472.github.io/software_best_practices/#outline)
