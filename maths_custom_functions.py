@@ -15,3 +15,8 @@ def is_perfect_number(n):
     if n in [6, 28, 496, 8128, 33550336, 8589869056, 137438691328, 2305843008139952128]:
         return True
     return False
+
+def fibonacci(n):
+    if n < 2:
+        return 1
+    return fibonacci(n - 1) + fibonacci(n - 2)

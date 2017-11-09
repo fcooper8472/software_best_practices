@@ -24,5 +24,11 @@ class TestMathsCustomFunctions(unittest.TestCase):
 
         self.assertRaisesRegexp(ValueError, "The number .+ is negative!", mcf.is_perfect_number, -1)
 
+    def test_fibonacci(self):
+        self.assertEqual(mcf.fibonacci(0), 1)
+        self.assertEqual(mcf.fibonacci(1), 1)
+        self.assertEqual(mcf.fibonacci(2), 2)
+        self.assertEqual(mcf.fibonacci(15), 987)
+
 if __name__ == '__main__':
     unittest.main()
