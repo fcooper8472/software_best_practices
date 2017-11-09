@@ -28,7 +28,8 @@ Git is a distributed VCS.
 * Multiple people can work at once
 * Good for all plain text documents, including LaTeX, html, python, C++, etc
 
-![git diagram](https://en.wikipedia.org/wiki/Git#/media/File:Git_operations.svg)
+#### >> Demo this repo (command line)
+#### >> Demo this repo ([GitKraken](https://www.gitkraken.com/))
 
 ___
 [<< back](https://fcooper8472.github.io/software_best_practices/#outline)
